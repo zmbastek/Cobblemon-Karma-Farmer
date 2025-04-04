@@ -17,5 +17,8 @@ If you are using a singular monitor, I find this step works best when Minecraft 
 Use the dimensions from the previous step and replace the ones used in main.py
 
 # EDIT YOUR KEYBINDS IN main.py
-in main.py pyautogui uses the keys to open the chat and to send a message. You may have to change the string to your Minecraft keybind. 
+in main.py pyautogui uses the keys to open the chat and to send a message. You may have to change the string to your Minecraft keybind.  
+
+-------------------------------------------------------------------------------------------------------
+Additionally, the server will also prompt the user to send 'gg' in the chat for karma points. I have attempted to implement that via an 'if-statement' but it broke the program, so for now I have left it out. In the future I will figure out a way for both to be included.
 
