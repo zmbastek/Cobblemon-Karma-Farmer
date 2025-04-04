@@ -3,7 +3,7 @@ import pyautogui
 import pytesseract
 import random
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe" # this may need to change depending on where PyTesseract saved to
 
 CHAT_REGION = (72, 615, 664, 375)  # (x, y, width, height)
 
@@ -16,7 +16,7 @@ def read_chat():
 
 def send_welcome():
     """Types and sends 'welcome' in Minecraft."""
-    pyautogui.press('enter')  # Open chat
+    pyautogui.press('t')  # Open chat
     time.sleep(0.1)
     pyautogui.write("welcome")
     time.sleep(0.1)
@@ -24,11 +24,11 @@ def send_welcome():
 
 def monitor_chat():
     """Continuously checks the chat for the trigger message."""
-    print("Monitoring chat for new players...")
+    print("Monitoring chat for new players...") # feel free to omit this line
     while True:
         chat_text = read_chat()
         if "has joined the server for the first" in chat_text:
-            print("New player detected! Sending welcome message...")
+            print("New player detected! Sending welcome message...") # feel free to omit this line
             random_number = random.uniform(2,4)
             time.sleep(random_number)
             send_welcome()
