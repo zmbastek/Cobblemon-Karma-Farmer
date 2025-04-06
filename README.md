@@ -22,3 +22,13 @@ in main.py pyautogui uses the keys to open the chat and to send a message. You m
 -------------------------------------------------------------------------------------------------------
 Additionally, the server will also prompt the user to send 'gg' in the chat for karma points. I have attempted to implement that via an 'if-statement' but it broke the program, so for now I have left it out. In the future I will figure out a way for both to be included.
 
+-------------------------------------------------------------------------------------------------------
+### About the Cobblemon GG server
+The Cobblemon GG server can be accessed directly via the Modrinth client
+  - the download for the client can be found here: https://modrinth.com/app
+
+Once downloaded, in the search bar you can search for 'Cobblemon GG' and it should be a pokeball logo with an Onix on it
+
+
+
+
