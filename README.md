@@ -7,9 +7,9 @@ You will need to install PyTesseract to your machine.
 
 Additionally if you do not have them installed, you should pip install pyautogui, pillow, and pytesseract (pytesseract needs to be pip installed after its initial download).
 
-'''bash
+```bash
 pip install pyautogui pillow pytesseract
-'''
+```
 
 ***
 ## FIRST go into chat-space-checker.py
