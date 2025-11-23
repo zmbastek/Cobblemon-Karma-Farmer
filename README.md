@@ -29,7 +29,7 @@ Additionally, the server will also prompt the user to send 'gg' in the chat for 
 The Cobblemon GG server can be accessed directly via the Modrinth client
   - the download for the client can be found here: https://modrinth.com/app
 
-Once downloaded, in the search bar you can search for 'Cobblemon GG' and it should be a pokeball logo with an Onix on it
+Once downloaded, in the search bar you can search for 'Cobblemon GG' and it should be a pokeball logo with an Onix on it.
 
 
 

@@ -4,7 +4,8 @@ import pytesseract
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-CHAT_REGION = (72, 615, 664, 375)  # Replace x, y, width, height with appropriate values
+#            (x, y, width, height)
+CHAT_REGION = (72, 615, 664, 375)  # Replace x, y, width, height with appropriate values if these do not suffice
 
 
 screenshot = pyautogui.screenshot(region=CHAT_REGION)
