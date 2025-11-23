@@ -6,11 +6,9 @@ You will need to install PyTesseract to your machine.
   - The download can be found here: https://github.com/UB-Mannheim/tesseract/wiki
 
 Additionally if you do not have them installed, you should pip install pyautogui, pillow, and pytesseract (pytesseract needs to be pip installed after its initial download).
-
-```bash
+```
 pip install pyautogui pillow pytesseract
 ```
-
 ***
 ## FIRST go into chat-space-checker.py
 Use chat-space-checker.py to take screenshots of your computer screen in order to adjust the dimensions to properly fit the Minecraft chat window.
